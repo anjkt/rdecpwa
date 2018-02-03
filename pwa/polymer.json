@@ -1,0 +1,33 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/hoverboard-app.html",
+  "fragments": [
+    "src/pages/about-page.html",
+    "src/pages/admis-page.html",
+    "src/pages/alum-page.html",
+    "src/pages/blog-page.html",
+    "src/pages/blog-list.html",
+    "src/pages/contact-page.html",
+    "src/pages/dept-page.html",
+    "src/pages/home-page.html",
+    "src/pages/infra-page.html",
+    "src/pages/place-page.html",
+    "src/pages/press-page.html",
+    "src/pages/result-page.html",
+    "src/pages/schedule-page.html",
+    "src/pages/speakers-page.html",
+    "src/pages/student-page.html"
+  ],
+  "sources": [
+    "data/**/*",
+    "images/**/*",
+    "scripts/**/*",
+    "src/**/*",
+    "bower.json",
+    "manifest.json"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/webcomponents-lite.min.js",
+    "bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror-worker.js"
+  ]
+}
